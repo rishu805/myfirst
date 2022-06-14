@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head> 
+ <link rel="stylesheet" href="style.css">
+</head>
+ 
+<title>My Login Page</title>
+<body>
+<h1>Credentials Required</h1>
+
+<form name="myform" action="/action_page.php" onsubmit="return validateForm()" method="post" >
+<label for="Uname">Username*: </label>
+<input type="text" id="Uname" name="Uname" value=""><br>
+
+<label for="Psswd">Password*: </label>
+<input type="Password" id="Psswd" name="Password" value=""><br>
+
+<button type="button" onclick="myFunction()"> Signup </button>
+</form>
+<p id="outputusnm">
+asdfg
+</p>
+<table>
+<tr>
+<th>Username</th>
+<th>Password</th>
+</tr>
+<tr>
+<td id="col1"></td>
+<td id="col2"></td>
+</tr>
+<tr>
+<td id="col11"></td>
+<td id="col12"></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</table>
+<script src="alert.js"></script>
+</body>
+</html>
